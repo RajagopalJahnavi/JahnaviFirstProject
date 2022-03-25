@@ -1,0 +1,168 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+/*header CSS*/
+#header{
+    height:60px;
+    width:100%;
+    background-color: rgb(81 80 80);
+}
+
+#icon{
+    float:left;
+    margin-left: 1%;
+    margin-top: -1%;
+    color:antiquewhite;
+}
+#social{
+    float: right;
+    margin-top: 0.5%;
+}
+
+.slogo{
+    height:40px;
+    width:40px;
+}
+
+/*Search CSS*/
+#search{
+    height:400px;
+    width:100%;
+    background-image: url('Images/fw.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+#logo{
+    height: 150px;
+    width:150px;
+    background-color:rgba(251, 255, 0, 0.65);
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    position: absolute;
+}
+#logo>span{
+    margin-left: 30%;
+    margin-top: 14%;
+    position:absolute;
+    font-size: 90px;
+    color: black;
+    font-weight: bold;
+}
+
+#heading
+{
+    margin-left: 30%;
+    margin-top: 14%;
+    position:absolute;
+    font-size: 40px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.dropdown{
+    height:50px;
+    width: 60%;
+    margin-left: 29.5%;
+    margin-top: 20%;
+    position:absolute;
+}
+
+select{
+    height:50px;
+    width:25%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.restSelect{
+    width:45%;
+}
+/*QuickSearch CSS*/
+#quickSearch{
+    height:500px;
+    width:80%;
+    margin-left: 11%;
+    margin-top:2% ;
+}
+
+#quickHeading{
+    font-size: 30px;
+    color:red;
+    display: block;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40%;
+}
+
+#quickSubHeading{
+    font-size: 20px;
+    color: gray;
+    display: block;
+    line-height: 3;
+    margin-left: 38.5%;
+}
+
+.tileContainer{
+    width:30%;
+    box-shadow: 10px 25px 25px grey;
+    display:inline-block;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+
+.tileComponent1{
+    width:50%;
+    height:180px;
+    float:left;
+}
+
+.tileComponent1>img{
+    width: 100%;
+    height:180px;
+}
+
+.tileComponent2{
+    width:45%;
+    margin-top: 20%;
+    margin-left: 3%;
+    float:left;
+}
+
+.componentHeading > a{
+    color:orange;
+    font-size: 25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+/*footer CSS*/
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:rgb(81 80 80);
+}
+
+#footText{
+    text-align: center;
+    color:white;
+}
+
+.footDiv{
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid white;
+    text-align: center;
+}
+
+.noBorder{
+    border:none;
+}
