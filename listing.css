@@ -179,7 +179,7 @@ a{
 
 @media screen and (max-width:1250px){
     body{
-        background-color:rgb(152, 238, 152)
+        background-color:rgb(245, 217, 180)
     }
     .content1>img {
         height: 204px;
@@ -197,7 +197,7 @@ a{
 }
 @media screen and (max-width:1120px){
     body{
-        background-color:lightpink
+        background-color:rgb(245, 217, 180)
     }
     #area {
         width: 29%;
@@ -212,7 +212,7 @@ a{
 
 @media screen and (max-width:1062px){
     body{
-        background-color:rgb(236, 236, 106)
+        background-color:rgb(245, 217, 180)
     }
     .content1>img {
         height: 203px;
@@ -242,7 +242,7 @@ a{
 
 @media screen and (max-width:920px){
     body{
-        background-color:lightblue
+        background-color:rgb(245, 217, 180)
     }
     #FilterDiv {
         margin-left:-5%;
@@ -252,25 +252,30 @@ a{
         width: 98%;
         margin-left: 8%;
     }
+    .contentHeading {
+        height: 16px;
+    }
     #area {
-        width: 32%;
-        margin-left: 0%;
+        width: 38%;
+        margin-left: 2%;
     }
     #type {
-        width: 29%;
-        margin-left:0%;
+        width: 34%;
+        margin-left:-1%;
+        margin-top:3%;
     }
     #meals1 {
-        width: 22%;
-        margin-left: -2%;
+        width: 28%;
+        margin-left: -1%;
     }
     #meals2 {
-
-        margin-left: 0%;
+        width: 20%;
+        margin-left: 2%;
     }
     .numbers{
         width: 9.5%;
         margin-left: 59%;
+        margin-top: -7%;
     }
     .content1>img {
         height: 204px;
@@ -279,7 +284,7 @@ a{
 
 @media screen and (max-width:732px){
     body{
-        background-color:rgba(255, 166, 0, 0.589)
+        background-color:rgb(245, 217, 180)
     }
     .numbers {
         width: 10.5%;
@@ -319,7 +324,7 @@ a{
 
 @media screen and (max-width:660px){
     body{
-        background-color:rgba(255, 0, 170, 0.589)
+        background-color:rgb(245, 217, 180)
     }
     .numbers {
         width: 12.5%;
@@ -342,7 +347,7 @@ a{
 }
 @media screen and (max-width:560px){
     body{
-        background-color:rgba(255, 0, 170, 0.589)
+        background-color:rgb(245, 217, 180)
     }
     #FilterDiv {
         margin-left: -10%;
@@ -377,7 +382,7 @@ a{
 
 @media screen and (max-width:507px){
     body{
-        background-color:rgba(255, 123, 0, 0.589)
+        background-color:rgb(245, 217, 180)
     }
     #FilterDiv {
         margin-left: -11%;
