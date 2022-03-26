@@ -134,7 +134,7 @@ select{
 }
 
 .componentHeading > a{
-    color:orange;
+    color:red;
     font-size: 25px;
 }
 
@@ -165,4 +165,227 @@ select{
 
 .noBorder{
     border:none;
+}
+
+@media screen and (max-width:1500px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+}
+
+@media screen and (max-width:1300px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #heading{
+        margin-left: 32%;
+        margin-top: 15%;
+        font-size: 35px;
+    }
+    .dropdown{
+        margin-left: 29.5%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width:1250px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #heading{
+        margin-top: 16%;
+    }
+    .dropdown{
+        margin-left: 31%;
+        margin-top: 21%;
+    }
+}
+
+@media screen and (max-width:1160px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #logo{
+        margin-top:2.5%;
+    }
+    #heading{
+        margin-left: 33%;
+        margin-top: 18%;
+        font-size: 30px;
+    }
+    .dropdown{
+        margin-top: 23%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #logo{
+        margin-top:3%;
+    }
+    #heading{
+        margin-left: 36%;
+        margin-top: 21%;
+        font-size: 25px;
+    }
+    .dropdown{
+        margin-top: 26%;
+        margin-left:33%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:870px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #logo{
+        margin-top:3%;
+        margin-left:42%;
+    }
+    #heading {
+        margin-left: 30%;
+        margin-top: 24%;
+        font-size: 25px;
+    }
+    .dropdown {
+        margin-top: 30%;
+        margin-left: 29%;
+        width: 61%;
+    }
+    .tileContainer {
+        width: 35%;
+        margin-left: 10%;
+    }
+    #quickHeading {
+        margin-left: 36%;
+    }
+    #quickSubHeading {
+        margin-left: 33.5%;
+    }
+}
+
+@media screen and (max-width:760px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #logo{
+        margin-top:3%;
+        margin-left:42%;
+    }
+    #heading {
+        margin-top: 26%;
+    }
+    .dropdown {
+        margin-top: 34%;
+        margin-left: 30%;
+        width: 65%;
+    }
+    .tileContainer {
+        width: 38%;
+        margin-left: 9%;
+    }
+    #quickHeading {
+        margin-left: 34%;
+    }
+    #quickSubHeading {
+        margin-left: 31.5%;
+    }
+}
+@media screen and (max-width:680px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #logo{
+        margin-top:4%;
+        margin-left:39%;
+    }
+    #heading {
+        margin-top: 30%;
+        margin-left: 27%;
+    }
+    .dropdown {
+        margin-top: 38%;
+        margin-left: 27%;
+        width: 75%;
+    }
+    .tileContainer {
+        width: 45%;
+        margin-left: 3%;
+    }
+    #quickHeading {
+        margin-left: 32%;
+    }
+    #quickSubHeading {
+        margin-left: 29.5%;
+        margin-top: -1%;
+    }
+}
+
+@media screen and (max-width:590px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #logo{
+        margin-top:7%;
+        margin-left:35%;
+    }
+    #heading {
+        margin-top: 39%;
+        margin-left: 26%;
+        font-size: 20px;
+    }
+    .dropdown {
+        margin-top: 46%;
+        margin-left: 23%;
+        width: 80%;
+    }
+    #quickSearch{
+        height:900px;
+    }
+    .tileContainer {
+        width: 52%;
+        margin-left: 23%;
+    }
+    #quickHeading {
+        margin-left: 26%;
+    }
+    #quickSubHeading {
+        margin-left: 21.5%;
+        margin-top: -2%;
+    }
+}
+
+@media screen and (max-width:520px){
+    body{
+        background-color:rgb(245, 217, 180)
+    }
+    #logo{
+        margin-top:7%;
+        margin-left:35%;
+    }
+    #heading {
+        margin-top: 41%;
+        margin-left: 24%;
+    }
+    .dropdown {
+        margin-top: 50%;
+        margin-left: 23%;
+        width: 80%;
+    }
+    #quickSearch{
+        height:900px;
+    }
+    .tileContainer {
+        width: 55%;
+        margin-left: 22%;
+    }
+    #quickHeading {
+        margin-left: 24%;
+    }
+    #quickSubHeading {
+        margin-left: 19.5%;
+    }
 }
