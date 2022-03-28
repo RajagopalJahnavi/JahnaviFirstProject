@@ -44,7 +44,14 @@ a{
     margin-left: 45%;
     margin-top: 2%;
     position: absolute;
+    animation: revolve 5s infinite;
 }
+
+@keyframes revolve{
+    50% {transform: rotate(360deg);}
+    100% {transform: scale(1.15)}
+}
+
 #logo>span{
     margin-left: 30%;
     margin-top: 14%;
@@ -72,15 +79,20 @@ a{
     position:absolute;
 }
 
-select{
+.place{
     height:50px;
     width:25%;
     font-size: 20px;
     text-align: center;
+    background-color:#ffffffab;
 }
 
 .restSelect{
+    height:50px;
     width:45%;
+    font-size: 20px;
+    text-align: center;
+    background-color:#ffffffab;
 }
 /*QuickSearch CSS*/
 #quickSearch{
@@ -101,7 +113,7 @@ select{
 
 #quickSubHeading{
     font-size: 20px;
-    color: gray;
+    color: #4c4242;
     display: block;
     line-height: 3;
     margin-left: 38.5%;
@@ -113,6 +125,13 @@ select{
     display:inline-block;
     margin-left: 13%;
     margin-top: 2%;
+    border-radius: 15px;
+    border-style:solid;
+    border-color:#000000bf;
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
 }
 
 .tileComponent1{
@@ -124,6 +143,7 @@ select{
 .tileComponent1>img{
     width: 100%;
     height:180px;
+    border-radius:11px;
 }
 
 .tileComponent2{
@@ -139,7 +159,7 @@ select{
 }
 
 .componentSubHeading{
-    color:gray;
+    color:#4c4242;
     font-size: 15px;
 }
 /*footer CSS*/
@@ -169,13 +189,13 @@ select{
 
 @media screen and (max-width:1500px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
 }
 
 @media screen and (max-width:1300px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #heading{
         margin-left: 32%;
@@ -190,7 +210,7 @@ select{
 
 @media screen and (max-width:1250px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #heading{
         margin-top: 16%;
@@ -203,7 +223,7 @@ select{
 
 @media screen and (max-width:1160px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #logo{
         margin-top:2.5%;
@@ -220,7 +240,7 @@ select{
 
 @media screen and (max-width:1000px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #logo{
         margin-top:3%;
@@ -239,7 +259,7 @@ select{
 
 @media screen and (max-width:870px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #logo{
         margin-top:3%;
@@ -269,7 +289,7 @@ select{
 
 @media screen and (max-width:760px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #logo{
         margin-top:3%;
@@ -296,7 +316,7 @@ select{
 }
 @media screen and (max-width:680px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #logo{
         margin-top:4%;
@@ -326,7 +346,7 @@ select{
 
 @media screen and (max-width:590px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #logo{
         margin-top:7%;
@@ -346,8 +366,8 @@ select{
         height:900px;
     }
     .tileContainer {
-        width: 52%;
-        margin-left: 23%;
+        width: 90%;
+        margin-left: 6%;
     }
     #quickHeading {
         margin-left: 26%;
@@ -360,7 +380,7 @@ select{
 
 @media screen and (max-width:520px){
     body{
-        background-color:rgb(245, 217, 180)
+        background-color:rgb(247 227 154);
     }
     #logo{
         margin-top:7%;
@@ -379,13 +399,34 @@ select{
         height:900px;
     }
     .tileContainer {
-        width: 55%;
-        margin-left: 22%;
+        width: 90%;
+        margin-left: 8%;
     }
     #quickHeading {
         margin-left: 24%;
     }
     #quickSubHeading {
         margin-left: 19.5%;
+    }
+}
+
+@media screen and (max-width:520px){
+    body{
+        background-color:rgb(247 227 154);
+    }
+    #heading {
+        margin-left: 21%;
+        margin-top: 45%;
+    }
+    .dropdown {
+        margin-left: 18%;
+        width: 96%;
+        margin-top: 54%;
+    }
+    .place {
+        height: 40px;
+    }
+    .restSelect {
+        height: 40px;
     }
 }

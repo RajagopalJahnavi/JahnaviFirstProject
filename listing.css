@@ -27,6 +27,30 @@ a{
     width:40px;
 }
 
+#logo {
+    height: 40px;
+    width: 40px;
+    background-color:rgba(251, 255, 0, 0.65);
+    border-radius: 50%;
+    margin-left: 48%;
+    margin-top: 0.5%;
+    position: absolute;
+    animation: revolve 3s infinite;
+}
+
+@keyframes revolve{
+    100% {transform: scale(1.15)}
+}
+
+#logo>span{
+    margin-left: 30%;
+    margin-top: 14%;
+    position:absolute;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+}
+
 .HeadingText{
     text-align: center;
     font-size: 30px;
@@ -61,6 +85,11 @@ a{
     margin-left: 2%;
     float: left;
 }
+
+.contentContainer:hover{
+    transform: scale(1.05);
+}
+
 .contentContainer{
     width:90%;
     height:210px;
@@ -68,6 +97,9 @@ a{
     display:inline-block;
     margin-left: 13%;
     margin-top: 2%;
+    border-radius:15px;
+    border-style:solid;
+    border-color:#000000bf;
 }
 
 .content1{
@@ -78,10 +110,10 @@ a{
 
 .content1>img{
     width: 100%;
-    height:180px;
-    margin-left: 2%;
-    margin-top: 2%;
+    height: 210px;
+    border-radius:11px;
 }
+
 .content2{
     width:50%;
     float:left;
@@ -91,8 +123,11 @@ a{
     height: 30px;
     margin-left: 4%;
     margin-top: 2%;
-    color:blue;
     font-weight: bold;
+}
+
+.contentHeading > a{
+    color:#4b0d06;
 }
 
 .contentSubHeading{
@@ -135,12 +170,7 @@ a{
 }
 
 .numbers{
-    background-color: rgba(81, 80, 80, 0.589);
-    border:1px solid black;
-    width:5.5%;
-    text-align: center;
-    margin-left:62%;
-    margin-top: -4%;
+    margin-left:58.5%;
 }
 
 /*footer CSS*/
@@ -173,7 +203,7 @@ a{
         background-color:rgb(245, 217, 180)
     }
     .content1>img {
-        height: 203px;
+        height: 210px;
     }
 }
 
@@ -181,18 +211,11 @@ a{
     body{
         background-color:rgb(245, 217, 180)
     }
-    .content1>img {
-        height: 204px;
-    }
     #area {
         width: 28%;
     }
     #meals1 {
         margin-left: 0%;
-    }
-    .numbers {
-        width:6.5%;
-        margin-left: 61.5%;
     }
 }
 @media screen and (max-width:1120px){
@@ -214,12 +237,6 @@ a{
     body{
         background-color:rgb(245, 217, 180)
     }
-    .content1>img {
-        height: 203px;
-    }
-    .numbers {
-        width: 7.5%;
-    }
     .contentContainer {
         width: 92%;
     }
@@ -237,6 +254,10 @@ a{
     #type {
         width: 27%;
         margin-left: 1%;
+    }
+    .numbers{
+        margin-left: 56.5%;
+        margin-top: -2%;
     }
 }
 
@@ -273,23 +294,13 @@ a{
         margin-left: 2%;
     }
     .numbers{
-        width: 9.5%;
-        margin-left: 59%;
-        margin-top: -7%;
-    }
-    .content1>img {
-        height: 204px;
+        margin-left: 54.5%;
     }
 }
 
 @media screen and (max-width:732px){
     body{
         background-color:rgb(245, 217, 180)
-    }
-    .numbers {
-        width: 10.5%;
-        margin-left: 58%;
-        margin-top: 3%;
     }
     #FilterDiv {
         margin-left:-7%;
@@ -318,18 +329,13 @@ a{
         margin-left: 2%;
     }
     .content1>img {
-        height: 225px;
+        height: 230px;
     }
 }
 
 @media screen and (max-width:660px){
     body{
         background-color:rgb(245, 217, 180)
-    }
-    .numbers {
-        width: 12.5%;
-        margin-left: 58%;
-        margin-top: -3%;
     }
     #area {
         width: 45%;
@@ -343,6 +349,9 @@ a{
     }
     #type {
         width: 42%;
+    }
+    .numbers{
+        margin-left: 51.5%;
     }
 }
 @media screen and (max-width:560px){
@@ -358,11 +367,6 @@ a{
         margin-left: 6%;
         margin-top: 3%;
     }
-    .numbers {
-        width: 15.5%;
-        margin-left: 55%;
-        margin-top: -3%;
-    }
     #area {
         width: 54%;
     }
@@ -376,7 +380,11 @@ a{
         width: 48%;
     }
     .content1>img {
-        height: 239px;
+        height: 244px;
+    }
+    .numbers{
+        margin-left: 49.5%;
+        margin-top: 8%;
     }
 }
 
