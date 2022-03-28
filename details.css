@@ -52,7 +52,7 @@ a{
 }
 
 .contentDiv{
-    height:700px;
+    height:1800px;
     width:77%;
     margin-left: 5%;
     float: left;
@@ -77,6 +77,10 @@ a{
     float: left;
     margin-top: 3%;
     margin-left:2%;
+}
+
+.checked{
+    color:red
 }
 
 .feature_container{
