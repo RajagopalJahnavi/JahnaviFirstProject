@@ -206,6 +206,9 @@ a{
         margin-left: 29.5%;
         margin-top: 20%;
     }
+    #quickSearch{
+        height:auto;
+    }
 }
 
 @media screen and (max-width:1250px){
