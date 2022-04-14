@@ -300,6 +300,8 @@ a{
     }
     #heading {
         margin-top: 26%;
+        margin-left: 32%;
+        font-size: 22px;
     }
     .dropdown {
         margin-top: 34%;
@@ -317,6 +319,11 @@ a{
         margin-left: 31.5%;
     }
 }
+@media screen and (max-width:715px){
+    #heading{
+        margin-left:30%;
+    }
+}
 @media screen and (max-width:680px){
     body{
         background-color:rgb(247 227 154);
@@ -327,7 +334,7 @@ a{
     }
     #heading {
         margin-top: 30%;
-        margin-left: 27%;
+        margin-left: 30%;
     }
     .dropdown {
         margin-top: 38%;
@@ -346,7 +353,16 @@ a{
         margin-top: -1%;
     }
 }
-
+@media screen and (max-width:640px){
+    #heading {
+        margin-top: 31%;
+        margin-left: 26%;
+    }
+    .dropdown {
+        margin-top: 39%;
+        margin-left: 24%;
+    }
+}
 @media screen and (max-width:590px){
     body{
         background-color:rgb(247 227 154);
@@ -389,7 +405,7 @@ a{
     #heading {
         margin-top: 41%;
         margin-left: 26%;
-        font-size: 18px;
+        font-size:18px;
     }
     .dropdown {
         margin-top: 50%;
