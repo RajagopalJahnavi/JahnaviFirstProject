@@ -364,10 +364,7 @@ a{
         margin-top: 46%;
         margin-left: 23%;
         width: 80%;
-    }
-    #quickSearch{
-        height:900px;
-    }
+    }   
     .tileContainer {
         width: 90%;
         margin-left: 6%;
@@ -391,15 +388,13 @@ a{
     }
     #heading {
         margin-top: 41%;
-        margin-left: 24%;
+        margin-left: 26%;
+        font-size: 18px;
     }
     .dropdown {
         margin-top: 50%;
         margin-left: 23%;
         width: 80%;
-    }
-    #quickSearch{
-        height:900px;
     }
     .tileContainer {
         width: 90%;
@@ -413,23 +408,3 @@ a{
     }
 }
 
-@media screen and (max-width:520px){
-    body{
-        background-color:rgb(247 227 154);
-    }
-    #heading {
-        margin-left: 21%;
-        margin-top: 45%;
-    }
-    .dropdown {
-        margin-left: 18%;
-        width: 96%;
-        margin-top: 54%;
-    }
-    .place {
-        height: 40px;
-    }
-    .restSelect {
-        height: 40px;
-    }
-}
